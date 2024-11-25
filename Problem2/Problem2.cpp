@@ -9,8 +9,8 @@ int factorial(int x){
     return x*factorial(x-1); // calculate x*factorial(x-1)
 }  
 int main(){
-    int x;
-    cout << "Enter number you want to be factorised: "; // Dispalys a question to the user
+    int x; 
+    cout << "Enter number you want to be factorised: "; // Displays a question to the user
     cin >> x; // Inputs as x
     cout << "The factorial of " << x << " is " << factorial(x) << endl; // Displays the result of the factorial
     
